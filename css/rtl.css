@@ -275,8 +275,8 @@
 .translated-rtl .banner-one-page .banner-carousel .content-box .link-box {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .translated-rtl .banner-one-page .banner-carousel .vid-link {
@@ -290,11 +290,12 @@
   }
 }
 
-.translated-rtl .main-menu .navigation > li {
+.translated-rtl .main-menu .navigation>li {
   float: right;
 }
 
 @media (max-width: 479px) {
+
   .translated-rtl .about-section .image-column .image-block,
   .translated-rtl .about-section .image-column .image-block:nth-child(1),
   .translated-rtl .about-section .image-column .image-block:nth-child(2) {
@@ -370,7 +371,7 @@
   margin-left: 10px;
 }
 
-.translated-rtl .header-style-seven .social-links li + li {
+.translated-rtl .header-style-seven .social-links li+li {
   margin-left: 0;
   margin-right: 30px;
 }
@@ -381,8 +382,8 @@
 
 .translated-rtl .banner-section-four .auto-container .row {
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .translated-rtl .service-block-three__single .icon-box span {
@@ -395,7 +396,7 @@
   padding-right: 30px;
 }
 
-.translated-rtl .about-section-three__list li > i {
+.translated-rtl .about-section-three__list li>i {
   right: 0;
 }
 
@@ -404,12 +405,12 @@
   right: auto;
 }
 
-.translated-rtl .about-section-three__name > img {
+.translated-rtl .about-section-three__name>img {
   left: auto;
   right: 0;
 }
 
-.translated-rtl .main-footer__three .footer-widget .post-list li > img {
+.translated-rtl .main-footer__three .footer-widget .post-list li>img {
   margin-right: 0;
   margin-left: 20px;
 }
@@ -419,7 +420,7 @@
   padding-right: 30px;
 }
 
-.translated-rtl .main-footer__three .footer-widget .contact-list li > span {
+.translated-rtl .main-footer__three .footer-widget .contact-list li>span {
   right: 0;
   left: auto;
 }
@@ -433,8 +434,9 @@
   margin-right: 40px;
 }
 
-.translated-rtl .main-footer__three .bottom-footer .social-links li + li {
+.translated-rtl .main-footer__three .bottom-footer .social-links li+li {
   margin-left: 0;
   margin-right: 40px;
 }
+
 /*# sourceMappingURL=rtl.css.map */
