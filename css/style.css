@@ -4060,6 +4060,7 @@ img.lazy-image.loaded {
   right: 13px;
   z-index: 1000;
 }
+
 .whatsapp-float img {
   width: 60px;
   height: 60px;
@@ -4549,7 +4550,35 @@ img.lazy-image.loaded {
   border-color: var(--thm-text);
 }
 
+/* 
+====================================================================
+CEO message section
+==================================================================== */
+.ceo-message-section .wrapper {
+  gap: 30px;
+}
+
+.ceo-message-section .image-box img {
+  height: 430px;
+}
+
+
+@media (max-width: 768px) {
+  .ceo-message-section .image-box img {
+    height: auto !important;
+  }
+
+  .ceo-message-section .wrapper {
+    gap: 0px;
+  }
+}
+
 /***
+
+
+
+
+
 
 ====================================================================
 20.	Parallax Section
