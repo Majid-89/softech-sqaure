@@ -4051,12 +4051,26 @@ img.lazy-image.loaded {
 ====================================================================
 17.	Fun Facts Section
 ====================================================================
-
 ***/
+
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 70px;
+  right: 13px;
+  z-index: 1000;
+}
+.whatsapp-float img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
 .facts-section {
   position: relative;
-  padding: 0px 0px 290px;
+  /* padding: 0px 0px 290px; */
+  padding: 30px;
   background: #1c1e22;
   color: #ffffff;
   z-index: 2;
